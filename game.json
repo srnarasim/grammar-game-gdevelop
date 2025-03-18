@@ -52,55 +52,55 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "assets/images/1.svg",
+        "file": "assets/images/1.png",
         "kind": "image",
         "metadata": "",
-        "name": "1.svg",
+        "name": "1.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/images/2.svg",
+        "file": "assets/images/2.png",
         "kind": "image",
         "metadata": "",
-        "name": "2.svg",
+        "name": "2.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/images/3.svg",
+        "file": "assets/images/3.png",
         "kind": "image",
         "metadata": "",
-        "name": "3.svg",
+        "name": "3.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/images/4.svg",
+        "file": "assets/images/4.png",
         "kind": "image",
         "metadata": "",
-        "name": "4.svg",
+        "name": "4.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/images/5.svg",
+        "file": "assets/images/5.png",
         "kind": "image",
         "metadata": "",
-        "name": "5.svg",
+        "name": "5.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/images/6.svg",
+        "file": "assets/images/6.png",
         "kind": "image",
         "metadata": "",
-        "name": "6.svg",
+        "name": "6.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -163,7 +163,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "1.svg",
+                  "image": "1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -192,7 +192,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "1.svg",
+                  "image": "1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -209,7 +209,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "2.svg",
+                  "image": "2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -249,7 +249,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "3.svg",
+                  "image": "3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -289,7 +289,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "4.svg",
+                  "image": "4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -329,7 +329,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "5.svg",
+                  "image": "5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -369,7 +369,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "6.svg",
+                  "image": "6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -416,7 +416,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "6.svg",
+                  "image": "6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -521,7 +521,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "2.svg",
+                  "image": "2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -581,7 +581,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "6.svg",
+                  "image": "6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
