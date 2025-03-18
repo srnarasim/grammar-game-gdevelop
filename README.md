@@ -1,20 +1,35 @@
-# Grammar Game for Kids using GDevelop
+# King's Quest to Save the Princess with Sentences
 
-An educational game designed to teach grammar concepts to children in a fun and interactive way.
+An educational game to teach grammar through gameplay where a king must form correct sentences to save the princess.
 
-## About the Project
+## Game Overview
 
-This game uses the [GDevelop](https://gdevelop.io/) framework, an open-source, cross-platform game engine designed for everyone to create games without programming knowledge.
+In this game, players control a king who must navigate through challenges and form grammatically correct sentences to save the princess from a dragon. The game teaches basic grammar concepts through interactive gameplay.
 
-## Game Concept
+## Game Features
 
-The game will teach grammar concepts through interactive mini-games and challenges:
+- **Character Movement**: Use arrow keys to move the king character
+- **Sentence Building**: Drag and drop words to form grammatically correct sentences
+- **Grammar Challenges**: Learn about subjects, verbs, and objects by forming sentences
+- **Interactive Gameplay**: Defeat enemies and overcome obstacles by using proper grammar
 
-- **Noun Explorer**: Identify nouns in sentences
-- **Verb Action**: Match verbs to corresponding actions
-- **Adjective Adventure**: Learn about descriptive words
-- **Sentence Builder**: Construct grammatically correct sentences
-- **Punctuation Puzzles**: Learn proper punctuation
+## How to Play
+
+1. **Main Menu**: Click the "Play" button to start the game
+2. **Movement**: Use the arrow keys to move the king (Left, Right, Up to jump)
+3. **Sentence Building**: 
+   - Drag words from the word bank to the sentence area
+   - Form a complete sentence with a subject, verb, and object
+   - Example: "The King saves the princess"
+4. **Winning**: Form the correct sentence to defeat the dragon and save the princess
+
+## Educational Value
+
+This game teaches:
+- Basic sentence structure (Subject + Verb + Object)
+- Word recognition and vocabulary
+- Reading comprehension
+- Problem-solving skills
 
 ## Development Setup
 
@@ -27,13 +42,16 @@ The game will teach grammar concepts through interactive mini-games and challeng
 ```
 grammar-game-gdevelop/
 ├── assets/
-│   ├── images/     # Game graphics and sprites
-│   ├── sounds/     # Audio files
+│   ├── images/     # Game graphics and sprites (SVG files)
+│   ├── sounds/     # Audio files (background music and sound effects)
 │   └── fonts/      # Custom fonts
-├── src/            # Custom JavaScript code (if needed)
 ├── game.json       # Main GDevelop project file
 └── README.md       # This file
 ```
+
+## About the Project
+
+This game uses the [GDevelop](https://gdevelop.io/) framework, an open-source, cross-platform game engine designed for everyone to create games without programming knowledge.
 
 ## Contributing
 
