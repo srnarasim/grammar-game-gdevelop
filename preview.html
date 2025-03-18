@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>King's quest to save the princess with sentences</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #4a6fa5;
+            text-align: center;
+        }
+        .game-preview {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .game-image {
+            width: 100%;
+            max-width: 600px;
+            border: 2px solid #ddd;
+            margin-bottom: 20px;
+        }
+        .game-description {
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        .instructions {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-left: 4px solid #4a6fa5;
+            margin-bottom: 20px;
+        }
+        .instructions h2 {
+            margin-top: 0;
+            color: #4a6fa5;
+        }
+        .instructions ul {
+            padding-left: 20px;
+        }
+        .note {
+            font-style: italic;
+            color: #666;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>King's quest to save the princess with sentences</h1>
+        
+        <div class="game-preview">
+            <div class="game-image">
+                <!-- SVG images from the game -->
+                <svg width="600" height="400" viewBox="0 0 800 600" style="background-color: #87CEEB;">
+                    <!-- Background -->
+                    <rect x="0" y="500" width="800" height="100" fill="#8B4513" />
+                    <rect x="0" y="480" width="800" height="20" fill="#7CFC00" />
+                    
+                    <!-- Castle -->
+                    <rect x="600" y="300" width="150" height="180" fill="#808080" />
+                    <polygon points="600,300 675,200 750,300" fill="#A52A2A" />
+                    <rect x="650" y="400" width="50" height="80" fill="#8B4513" />
+                    
+                    <!-- King -->
+                    <circle cx="150" cy="450" r="30" fill="#FFD700" />
+                    <rect x="135" y="480" width="30" height="50" fill="#FF0000" />
+                    <rect x="135" y="530" width="10" height="30" fill="#000000" />
+                    <rect x="155" y="530" width="10" height="30" fill="#000000" />
+                    
+                    <!-- Dragon -->
+                    <polygon points="400,450 450,400 500,450" fill="#006400" />
+                    <circle cx="400" cy="450" r="20" fill="#006400" />
+                    <circle cx="390" cy="445" r="5" fill="#FFFFFF" />
+                    <circle cx="390" cy="445" r="2" fill="#000000" />
+                    
+                    <!-- Princess -->
+                    <circle cx="650" cy="350" r="20" fill="#FFC0CB" />
+                    <polygon points="630,370 650,420 670,370" fill="#FF69B4" />
+                    
+                    <!-- Word bubbles -->
+                    <rect x="100" y="100" width="80" height="40" rx="10" fill="#FFFFFF" stroke="#000000" />
+                    <text x="120" y="125" font-family="Arial" font-size="16">The</text>
+                    
+                    <rect x="200" y="100" width="80" height="40" rx="10" fill="#FFFFFF" stroke="#000000" />
+                    <text x="215" y="125" font-family="Arial" font-size="16">King</text>
+                    
+                    <rect x="300" y="100" width="80" height="40" rx="10" fill="#FFFFFF" stroke="#000000" />
+                    <text x="310" y="125" font-family="Arial" font-size="16">saves</text>
+                    
+                    <rect x="400" y="100" width="80" height="40" rx="10" fill="#FFFFFF" stroke="#000000" />
+                    <text x="415" y="125" font-family="Arial" font-size="16">the</text>
+                    
+                    <rect x="500" y="100" width="100" height="40" rx="10" fill="#FFFFFF" stroke="#000000" />
+                    <text x="510" y="125" font-family="Arial" font-size="16">princess</text>
+                    
+                    <!-- Sentence area -->
+                    <rect x="100" y="50" width="600" height="40" rx="5" fill="#F0F0F0" stroke="#000000" />
+                    <text x="350" y="30" font-family="Arial" font-size="16" text-anchor="middle">Drop words here to form a sentence</text>
+                </svg>
+            </div>
+            
+            <div class="game-description">
+                <p>This educational game teaches grammar through gameplay. Players control a king who must navigate through challenges and form grammatically correct sentences to save the princess from a dragon.</p>
+            </div>
+            
+            <div class="instructions">
+                <h2>How to Play</h2>
+                <ul>
+                    <li>Use arrow keys to move the king (Left, Right, Up to jump)</li>
+                    <li>Drag words from the word bank to the sentence area</li>
+                    <li>Form a complete sentence with a subject, verb, and object</li>
+                    <li>Example: "The King saves the princess"</li>
+                    <li>Form the correct sentence to defeat the dragon and save the princess</li>
+                </ul>
+            </div>
+            
+            <p class="note">Note: This is a preview of the game. To play the full game, you need to open the game.json file with GDevelop.</p>
+        </div>
+    </div>
+</body>
+</html>
